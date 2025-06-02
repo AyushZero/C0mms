@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <SignedOut>
-        <Button>Click me</Button>
+        <Button variant="secondary">Sign In</Button>
       </SignedOut>
       <SignedIn>
         <UserProfile />
